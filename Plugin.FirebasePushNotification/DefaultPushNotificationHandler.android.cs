@@ -10,12 +10,13 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Media;
-using Android.Support.V4.App;
+//using Android.Support.V4.App;
 using System.Collections.ObjectModel;
 using Android.Content.PM;
 using Android.Content.Res;
 using Java.Util;
 using static Android.App.ActivityManager;
+using AndroidX.Core.App;
 
 namespace Plugin.FirebasePushNotification
 {
