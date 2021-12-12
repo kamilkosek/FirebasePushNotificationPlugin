@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Firebase.Iid;
 using Firebase.Messaging;
 using System.Collections.Generic;
@@ -45,7 +45,7 @@ namespace Plugin.FirebasePushNotification
         public static Type NotificationActivityType { get; set; }
         public static ActivityFlags? NotificationActivityFlags { get; set; } = ActivityFlags.ClearTop | ActivityFlags.SingleTop;
 
-        public static string DefaultNotificationChannelId { get; set; } = "FirebasePushNotificationChannel";
+        public static string DefaultNotificationChannelId { get; set; } = "DefaultChannel";
         public static string DefaultNotificationChannelName { get; set; } = "General";
         public static NotificationImportance DefaultNotificationChannelImportance { get; set; } = NotificationImportance.Default;
 
